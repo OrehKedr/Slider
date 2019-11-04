@@ -1,0 +1,38 @@
+.slider-wrap{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+.slider{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.slider img{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 1s;
+}
+.slider .opacity0{
+    opacity: 0;
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    outline: none;
+}
+/* .btn:active{
+    
+}
+.btn:focus{
+    
+} */
